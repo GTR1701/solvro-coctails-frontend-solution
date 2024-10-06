@@ -1,6 +1,6 @@
 "use server";
 
-import AllCocktails from "@/components/AllCocktails";
+import MainComponent from "@/components/MainComponent";
 import axios from "axios";
 
 export default async function Home() {
@@ -9,7 +9,7 @@ export default async function Home() {
 	);
 	return (
 		<div>
-			<AllCocktails cocktails={response.data.data} />
+			<MainComponent cocktails={response.data.data} />
 		</div>
 	);
 }
