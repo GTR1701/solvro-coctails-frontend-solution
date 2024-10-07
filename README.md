@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Solvro Cocktails Frontend Solution
 
-## Getting Started
+Cześć, zamieszczam tu krótki opis funkcjonalności 
+oraz spełnienia wymogów zadania.
 
-First, run the development server:
+**Wymogi główne:**
+- [x] Wyświetlanie listy koktajli
+- [x] Zaznaczanie koktajlu jako ulubiony
+- [x] Wyszukiwanie i filtrowanie koktajli - użyj wybranych pól, które zwraca API i uważasz je za przydatne dla użytkownika
+- [x] Zobaczenie szczegółów koktajlu, a zwłaszcza jego składników
+- [x] Postaraj się, aby aplikacja była ładna i przyjazna dla użytkownika 😉 Możesz dodać dowolne funkcje, których uznasz za stosowne.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Mile widziane:**
+- [x] Responsywność (mam nadzieję, że udało się przynajmiej większośc przypadków zaimplementować :)
+- [x] Typescript
+- [x] Udostępnienie aplikacji do przeglądania (Vercel) [Link do zahostowanego rozwiązania](https://solvro-coctails-frontend-solution.vercel.app/)
+- [ ] Biblioteka do zarządzania stanem serwera (TanStack Query, SWR, itp.). **Tu jedynie użyłem wbudowanego fetch API i axios'a do zaciągania danych, a resztę zostawiłem cache'owi next'a.**
+- [x] Framework frontendowy (NextJS)
+- [x] Gotowa biblioteka komponentów (ui.shadcn.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Starałem się, żeby rozwiązanie wyglądało jak najlepiej w 8 godzin i zarazem działało jak należy, więc gdzieniegdzie mogą być pewne niedociągnięcia w designie, ale wiadomo, cas był dosyć ograniczonym surowcem 🙂
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Chciałem dodać jeszcze paginację i jakieś dokładniejsze filtry, ale również czasu zabrakło.
