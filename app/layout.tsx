@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Suspense } from "react";
 import ScaleLoader from "react-spinners/ScaleLoader";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",

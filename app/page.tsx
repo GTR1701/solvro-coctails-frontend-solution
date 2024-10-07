@@ -1,6 +1,6 @@
 "use server";
 
-import MainComponent from "@/components/MainComponent";
+import MainComponent from "./Landing";
 import axios from "axios";
 
 export default async function Home() {
